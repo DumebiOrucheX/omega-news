@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Omega News",
-    "slug": "Omega News",
+    "slug": "omega-news",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,7 +39,12 @@
       "typedRoutes": true
     },
     "extra": {
-      "EXPO_NEWS_API_KEY": "05ccf36efb3945d3aa07f5221156cc44"
-    }
+      "EXPO_NEWS_API_KEY": "05ccf36efb3945d3aa07f5221156cc44",
+      "router": {},
+      "eas": {
+        "projectId": "f2d2241f-8ee7-439b-9741-917ac265ee5b"
+      }
+    },
+    "owner": "dumebioruche"
   }
 }
